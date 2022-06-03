@@ -1,0 +1,35 @@
+body{
+    background-image: linear-gradient(to bottom right, #e83d04, #f9e003);
+    margin:auto;
+}
+.note{
+    height: 200px;
+    box-sizing: border-box;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    resize: none;
+    font-family: emoji;
+    font-size: 2.1vw;
+}
+#app{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    padding: 24px;
+    gap: 24px;
+}
+.add-note{
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.1);
+    outline: none;
+    font-size: 8vw;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.add-note:hover{
+    background: rgba(0,0,0,0.3);
+}
